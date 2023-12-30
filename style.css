@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-body {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.top-section {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 5rem;
+}
+
+.nav-bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/* .logo-wrapper {
+
+}
+
+.logo {
+
+} */
+
+.top-section-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 120px;
+}
+
+.hero-copy {
+    width: 33%;
+    height: auto;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.body-copy-wrapper {
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 24px;
+}
+
+.body-copy {
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+}
+
+.rectangles-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.rec-one {
+    background-color: rgb(153, 43, 226);
+    width: 25%;
+    height: 24px;
+}
+
+.rec-two {
+    background-color: rgb(56, 150, 84);
+    width: 25%;
+    height: 24px;
+}
+
+.rec-three {
+    background-color: rgb(226, 43, 150);
+    width: 25%;
+    height: 24px;
+}
+
+.rec-four {
+    background-color: rgb(43, 76, 226);
+    width: 25%;
+    height: 24px;
+}
+
+.button-wrapper {
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 24px;
+}
+
+.primary-button {
+    width: 100%;
+    height: auto;
+    background-color: #1c1c1c;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1.5rem 2.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.secondary-button {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: #1c1c1c;
+    border: 2px solid #1c1c1c;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1.5rem 2.5rem;
+}
+
+.bottom-section {
+    width: 100%;
+    height: 50%;
+    padding: 0 5rem;
+}
+
+.hero-image-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
